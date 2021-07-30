@@ -5,7 +5,7 @@ export class Cargo implements Payload {
     material: string;
 
     constructor (massKg: number, material: string) {
-        this.material = material;
         this.massKg = massKg;
+        this.material = material;
     }
 }
